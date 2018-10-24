@@ -12,6 +12,7 @@ public class PageController {
 	}
 	@RequestMapping("doPageUI")
 	public String doPageUI(){
+		System.out.printf("666");
 		return "common/page";
 	}
 }
